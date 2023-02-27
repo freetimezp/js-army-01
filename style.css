@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ul, li, a {
+    list-style: none;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header {
+    width: 70%;
+    height: 80%;
+    background: linear-gradient(125deg, #74a436, #018a1f);
+    border-radius: 10px;
+    display: flex;
+    overflow: hidden;
+}
+
+header section, aside {
+    width: 93%;
+    height: 100%;
+    position: relative;
+}
+
+header aside {
+    width: 7%;
+}
+
+header section {
+    padding: 15px 5%;
+}
+
+header section nav {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header section nav h3 {
+    color: #fff;
+    font-size: 25px;
+}
+
+header section nav h3 span {
+    font-weight: 300;
+}
+
+header section ul {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header section ul li {
+    padding: 0 10px;
+}
+
+header section ul li a {
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+    transition: all 0.3s linear;
+    text-decoration: none;
+}
+
+header section ul li a:hover {
+    color: rgb(255, 255, 255, 0.5);
+}
+
+header section .content {
+    margin-top: 60px;
+}
+
+header section .content .num {
+    position: relative;
+    margin-left: 100px;
+    color: #fff;
+    font-size: 40px;
+}
+
+header section .content .num::before {
+    content: '';
+    position: absolute;
+    width: 150px;
+    height: 1px;
+    background: rgb(255, 255, 255, 0.8);
+    left: 65px;
+    bottom: 11px;
+}
+
+header section .content .num span:nth-child(2) {
+    color: rgb(255, 255, 255, 0.5);
+    font-size: 14px;
+    margin-left: 2px;
+    font-weight: 500;
+}
+
+header section .content h1 {
+    font-size: 50px;
+    line-height: 50px;
+    font-weight: 600;
+    color: #fff;
+}
+
+header section .content p {
+    padding: 10px 0 50px;
+    font-size: 15px;
+    width: 350px;
+    word-break: break-all;
+    color: rgb(255, 255, 255, 0.7);
+}
+
+header section .content a {
+    font-size: 15px;
+    position: relative;
+    top: 20px;
+    color: #fff;
+    border: 1px solid #fff;
+    font-weight: 600;
+    padding: 8px 25px;
+    text-decoration: none;
+    transition: all 0.3s linear;
+}
+
+header section .content a:hover {
+    border-radius: 10px;
+}
+
+header section .content .sr_change {
+    display: flex;
+    align-items: center;
+    margin-top: 60px;
+    color: #fff;
+}
+
+header section .content .sr_change h6 {
+    margin: 0 10px;
+    font-size: 18px;
+}
+
+header section .content .sr_change h6:nth-child(1) {
+    margin-left: 0;
+}
+
+header section .content .sr_change h5 {
+    width: 0;
+    height: 0.5px;
+    background: rgb(255, 255, 255, 0.8);
+    transition: all 1s linear;
+}
+
+header section .content .sr_change h5:nth-child(2) {
+    width: 160px;
+}
+
+header section .main {
+    position: absolute;
+    color: #fff;
+    font-size: 12rem;
+    font-weight: 800;
+    bottom: -35px;
+}
+
+header section .greenade {
+    position: absolute;
+    width: 550px;
+    left: 33%;
+    top: 15%;
+    filter: drop-shadow(30px 30px 20px rgb(0, 0, 0, 0.8)) drop-shadow(50px 50px 20px rgb(0, 0, 0, 0.2));
+}
+
+header aside {
+    box-shadow: -20px 0px 20px rgb(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+header aside .menu {
+    color: #fff;
+    font-size: 25px;
+}
+
+header aside ul {
+    position: relative;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+header aside ul li {
+    padding: 20px 3px;
+    transition: all 0.3s linear;
+}
+
+header aside ul li a {
+    position: relative;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 5px 8px;
+    border-radius: 50%;
+}
+
+header aside ul li:hover {
+    transform: rotate(360deg);
+}
+
+
+
+
