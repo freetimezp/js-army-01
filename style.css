@@ -148,6 +148,8 @@ header section .content .sr_change {
     align-items: center;
     margin-top: 60px;
     color: #fff;
+    position: relative;
+    z-index: 100;
 }
 
 header section .content .sr_change h6 {
@@ -176,6 +178,7 @@ header section .main {
     font-size: 12rem;
     font-weight: 800;
     bottom: -35px;
+    z-index: 1;
 }
 
 header section .greenade {
@@ -184,6 +187,7 @@ header section .greenade {
     left: 33%;
     top: 15%;
     filter: drop-shadow(30px 30px 20px rgb(0, 0, 0, 0.8)) drop-shadow(50px 50px 20px rgb(0, 0, 0, 0.2));
+    z-index: 1;
 }
 
 header aside {
