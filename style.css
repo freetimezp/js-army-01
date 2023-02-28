@@ -229,6 +229,61 @@ header aside ul li:hover {
     transform: rotate(360deg);
 }
 
+@media screen and (max-width: 600px) {
+    header {
+        flex-direction: column;
+    }
+    header aside {
+        width: 100%;
+        height: auto;
+        flex-direction: row;
+        justify-content: space-between;
 
+    }
+    header aside ul {
+        flex-direction: row;
+        justify-content: space-between;
+        margin-right: 10px;
+    }
+    header aside .menu {
+        margin-left: 10px;
+    }
+
+    header section ul {
+        display: none;
+    }
+    header section nav {
+        justify-content: center;
+    }
+    header section .content {
+        margin-top: 20px;
+    }
+    header section .content .num {
+        margin-left: 0;
+    }
+    header section .content a {
+        top: 60px;
+    }
+
+    header section .content h1 {
+        margin: 20px 0 10px;
+        font-size: 30px;
+    }
+    header section .content p {
+        width: 200px;
+        max-height: 100px;
+        overflow: hidden;
+        margin: 10px 0;
+    }
+
+    header section .main {
+        font-size: 46px;
+        bottom: 0;
+        text-align: center;
+    }
+    header section .content .sr_change {
+        margin-top: 150px;
+    }
+}
 
 
